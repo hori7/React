@@ -1,6 +1,11 @@
-function App(){
-  return <div>Hello React!</div>
+import React from 'react';
+
+class App extends React.Component{
+  render(){
+   return(
+    <div>Hello React!</div>
+   );
+  }
 }
 
-const target = document.querySelector('#app');
-ReactDOM.render(<App/>, target);
+export default App;
