@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/hori7/React/issues"
   },
-  "homepage": "https://github.com/hori7/React#readme"
+  "homepage": "https://github.com/hori7/React#readme",
+  "dependencies": {
+    "react-dom": "^17.0.1"
+  }
 }
